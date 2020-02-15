@@ -1,0 +1,15 @@
+* {
+  font-family: helvetica, sans-serif;
+}
+.App{
+  max-width: 500px;
+  margin: auto;
+  padding: 42px 24px;
+}
+
+.StockEventTable__Card{
+  margin: 12px 0;
+  border: 2px solid #eee;
+  border-radius: 3px;
+  padding: 24px;
+}

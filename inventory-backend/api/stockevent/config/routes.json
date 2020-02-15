@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stockevents",
+      "handler": "stockevent.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stockevents/count",
+      "handler": "stockevent.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stockevents/:id",
+      "handler": "stockevent.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stockevents",
+      "handler": "stockevent.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stockevents/:id",
+      "handler": "stockevent.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stockevents/:id",
+      "handler": "stockevent.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
