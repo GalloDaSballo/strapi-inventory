@@ -1,4 +1,4 @@
-# Strapi Inventory Management
+# Strapi Inventory Management
 
 Build an Inventory Management App with Strapi and React
 Use Strapi to add new Stock Events.
